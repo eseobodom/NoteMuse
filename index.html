@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Muse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  
+    <div id="contain" class="container typewriter">
+        <button class="mode">Welcome</button>
+        <h2>Daily Musings</h2>
+        <input type="text" id="entryTitle" placeholder="Enter title here..." style="margin-bottom: 0px;">
+        <div class="titleError"></div><br>
+        <textarea id="journalEntry" placeholder="Write your daily reflections here..."></textarea>
+        <div class="textError"></div><br>
+        <button class="save" onclick="saveEntry()">Save Note</button>
+        <div id="entriesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
