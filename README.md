@@ -1,2 +1,2 @@
 # NoteMuse
-A simple web for user's dairy 
+A simple web for user's dairy  
